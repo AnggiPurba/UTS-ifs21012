@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="DWI_myBackground" format="reference|color" />
+    <attr name="DWI_myColorText" format="reference|color" />
+    <attr name="DWI_myColorTextMuted" format="reference|color" />
+</resources>

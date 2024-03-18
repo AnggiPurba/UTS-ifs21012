@@ -1,0 +1,9 @@
+<resources>
+    <style name="Base.Theme.DinoPedia"
+        parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/DWI_blue</item>
+        <item name="DWI_myBackground">@color/DWI_light_primary</item>
+        <item name="DWI_myColorText">@color/DWI_light_text</item>
+        <item name="DWI_myColorTextMuted">@color/DWI_light_muted</item>
+    </style>
+</resources>
