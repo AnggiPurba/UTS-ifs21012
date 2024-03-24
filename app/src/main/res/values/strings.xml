@@ -8,6 +8,8 @@
     <string name="info_famili_HabitatdanLingkungan">Habitat dan Lingkungan famili</string>
     <string name="info_famili_Perilaku">Perilaku famili</string>
     <string name="info_famili_Klasifikasi">Klasifikasi famili</string>
+    <string name="info_dino_startIndex">Start Index</string>
+    <string name="info_dino_endIndex">End Index</string>
 
     <string-array name="famili_name">
         <item>Tyrannosauridae</item>
@@ -20,14 +22,16 @@
         <item>Velociraptoridae</item>
     </string-array>
     <string-array name="famili_icon">
-        <item>@drawable/ic_user</item>
-        <item>@drawable/ic_apple</item>
-        <item>@drawable/ic_avocado</item>
-        <item>@drawable/ic_banana</item>
-        <item>@drawable/ic_coconut</item>
-        <item>@drawable/ic_guava</item>
-        <item>@drawable/ic_mango</item>
-        <item>@drawable/ic_melon</item>
+
+        <item>@drawable/tyrannosaurus</item>
+        <item>@drawable/sauropoda</item>
+        <item>@drawable/velorap</item>
+        <item>@drawable/ornithopoda</item>
+        <item>@drawable/ceratopsia</item>
+        <item>@drawable/ankylosaurus</item>
+        <item>@drawable/nothronychus</item>
+        <item>@drawable/velociraptor</item>
+
     </string-array>
 
     <string-array name="famili_description">
@@ -42,14 +46,14 @@
     </string-array>
 
     <string-array name="famili_periodehidup">
-        <item>Kapur Awal hingga Kapur Akhir (sekitar 68-66 juta tahun yang lalu).</item>
-        <item>Jura Akhir hingga Kapur Akhir (sekitar 157-66 juta tahun yang lalu).</item>
-        <item>Jura Awal hingga Jura Akhir (sekitar 155-150 juta tahun yang lalu).</item>
-        <item>Kapur Awal hingga Kapur Akhir (sekitar 100-66 juta tahun yang lalu).</item>
-        <item> Kapur Awal hingga Kapur Akhir (sekitar 83-66 juta tahun yang lalu).</item>
-        <item>Kapur Awal hingga Kapur Akhir (sekitar 125-66 juta tahun yang lalu).</item>
-        <item>Kapur Awal hingga Kapur Akhir (sekitar 125-66 juta tahun yang lalu).</item>
-        <item>Kapur Awal hingga Kapur Akhir (sekitar 75-71 juta tahun yang lalu).</item>
+        <item>Kapur Awal hingga Kapur Akhir (sekitar 68–66 juta tahun yang lalu).</item>
+        <item>Jura Akhir hingga Kapur Akhir (sekitar 157–66 juta tahun yang lalu).</item>
+        <item>Jura Awal hingga Jura Akhir (sekitar 155–150 juta tahun yang lalu).</item>
+        <item>Kapur Awal hingga Kapur Akhir (sekitar 100–66 juta tahun yang lalu).</item>
+        <item> Kapur Awal hingga Kapur Akhir (sekitar 83–66 juta tahun yang lalu).</item>
+        <item>Kapur Awal hingga Kapur Akhir (sekitar 125–66 juta tahun yang lalu).</item>
+        <item>Kapur Awal hingga Kapur Akhir (sekitar 125–66 juta tahun yang lalu).</item>
+        <item>Kapur Awal hingga Kapur Akhir (sekitar 75–71 juta tahun yang lalu).</item>
     </string-array>
     <string-array name="famili_KarakteristikFisik">
         <item>Tengkorak besar, gigi besar, dan lengan pendek. Biasanya memiliki tubuh besar dan tungkai belakang yang kuat.</item>
@@ -93,8 +97,27 @@
         <item>Termasuk dalam ordo Theropoda.</item>
     </string-array>
 
+    <string-array name="start_index_dino">
+    <item>0</item>
+        <item>1</item>
+        <item>4</item>
+        <item>5</item>
+        <item>8</item>
+        <item>10</item>
+        <item>11</item>
+        <item>13</item>
+    </string-array>
 
-
+    <string-array name="end_index_dino">
+        <item>0</item>
+        <item>3</item>
+        <item>4</item>
+        <item>7</item>
+        <item>9</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+    </string-array>
 
 
     <string name="info_dino_name">Nama Dino</string>
@@ -103,190 +126,211 @@
     <string name="info_dino_Karakteristik">Karakteristik Dino</string>
     <string name="info_dino_Kelompok">Kelompok Fisik Dino</string>
     <string name="info_dino_Habitat">Habitat Dino</string>
+    <string name="info_dino_Makanan">Makanan Dino</string>
     <string name="info_dino_PanjangTinggiBobot">Panjang, Tinggi dan Bobot Dino</string>
     <string name="info_dino_Kelemahan">Kelemahan Dino</string>
 
+
+
     <string-array name="dino_name">
         <item>Tyrannosaurus Rex</item>
+        <item>Brachiosaurus</item>
+        <item>Apatosaurus</item>
+        <item>Diplodocus</item>
+        <item>Stegosaurus</item>
+        <item>Parasaurolophus</item>
+        <item>Edmontosaurus</item>
+        <item>Corythosaurus</item>
+        <item>Triceratops</item>
+        <item>Styracosaurus</item>
+        <item>Ankylosaurus</item>
+        <item>Ornithomimus</item>
+        <item>Gallimimus</item>
+        <item>Velociraptor</item>
+        <item>Deinonychus</item>
+
+    </string-array>
+    <string-array name="dino_deskripsi">
+        <item>Tyrannosaurus Rex adalah salah satu dinosaurus karnivora terbesar yang pernah hidup. Dikenal dengan tengkorak besar dan gigi tajam, T-Rex adalah predator yang menakutkan.</item>
+        <item>Brachiosaurus adalah salah satu dinosaurus herbivora terbesar yang pernah hidup. Dikenal dengan leher panjang dan tubuh besar, Brachiosaurus adalah pemakan tumbuhan yang dominan di habitatnya.</item>
+        <item>Apatosaurus, dahulu dikenal sebagai Brontosaurus, adalah dinosaurus herbivora besar dengan tubuh yang panjang dan berat.</item>
+        <item>Diplodocus adalah dinosaurus herbivora besar dengan leher panjang dan ekor yang panjang pula. Dikenal karena tubuhnya yang panjang dan ramping.</item>
+        <item>Stegosaurus adalah dinosaurus herbivora dengan tubuh besar dan terkenal dengan cakarnya yang besar dan plat yang terdapat di punggungnya.</item>
+        <item>Parasaurolophus adalah dinosaurus herbivora berukuran sedang dengan ciri khas semacam "trompet" di bagian atas kepalanya.</item>
+        <item>Edmontosaurus adalah dinosaurus herbivora besar yang memiliki leher panjang dan tubuh yang berat.</item>
+        <item>Corythosaurus adalah dinosaurus herbivora dengan ciri khas "topi" pada kepala yang menyerupai kresta.</item>
+        <item>Triceratops adalah dinosaurus herbivora berukuran besar yang dikenal dengan tanduk dan pelindung di kepalanya.</item>
+        <item>Styracosaurus adalah dinosaurus herbivora dengan tanduk besar dan piringan tulang di lehernya.</item>
+        <item>Ankylosaurus adalah dinosaurus herbivora dengan tubuh yang dilengkapi dengan piringan tulang dan gada di ekornya.</item>
+        <item>Ornithomimus adalah dinosaurus berukuran sedang yang mirip dengan burung, dengan tubuh yang ramping dan kaki yang panjang.</item>
+        <item>Gallimimus adalah dinosaurus berukuran sedang yang dikenal dengan kemampuan berlari yang sangat cepat, mirip dengan burung.</item>
+        <item>Velociraptor adalah dinosaurus karnivora berukuran sedang yang terkenal dengan kecepatan dan kecerdasannya.</item>
+        <item>Deinonychus adalah dinosaurus karnivora berukuran sedang yang terkenal dengan cakar yang besar di kaki belakangnya.</item>
+
+
+    </string-array>
+    <string-array name="dino_Karakteristik">
+        <item>T-Rex memiliki kepala besar, lengan pendek, dan tubuh besar yang kokoh. Gigi-giginya yang besar dan tajam digunakan untuk merobek daging mangsanya.</item>
+        <item>Brachiosaurus memiliki leher yang sangat panjang, kaki depan yang lebih panjang dari kaki belakang, dan tubuh yang besar.</item>
+        <item>Apatosaurus memiliki tubuh besar, leher panjang, dan ekor yang sering digunakan sebagai alat untuk membela diri.</item>
+        <item>Diplodocus memiliki tubuh yang sangat panjang dan ramping dengan leher yang panjang dan ekor yang panjang pula. Kaki belakangnya lebih panjang daripada kaki depannya.</item>
+        <item>Stegosaurus memiliki tubuh besar dengan kaki-kaki pendek dan leher pendek. Ciri khasnya adalah dua baris besar dari lempengan tulang yang terdapat di punggungnya.</item>
+        <item>Parasaurolophus memiliki tubuh yang ramping dengan leher yang cukup panjang. Ciri khasnya adalah tonjolan berbentuk tabung di bagian atas kepalanya.</item>
+        <item>Edmontosaurus memiliki tubuh yang besar dengan leher yang panjang dan kepala yang besar. Mungkin memiliki cakar kecil di ujungnya.</item>
+        <item>Corythosaurus memiliki tubuh yang besar dengan leher yang panjang dan kepala yang menonjol. Krestanya terbuat dari tulang yang dipakai untuk mengeluarkan suara.</item>
+        <item>Triceratops memiliki tubuh besar dengan tiga tanduk di atas kepalanya dan piringan tulang besar di bagian belakang kepala. Tubuhnya dilengkapi dengan pelindung yang kuat.</item>
+        <item>Styracosaurus memiliki tubuh besar dengan empat tanduk besar yang menonjol dari tengkoraknya, serta piringan tulang di bagian belakang lehernya yang memberikan perlindungan tambahan.</item>
+        <item>Ankylosaurus memiliki tubuh yang rendah dengan punggung yang dilapisi oleh piringan tulang keras dan ekor yang dilengkapi dengan gada besar yang digunakan untuk membela diri.</item>
+        <item>Ornithomimus memiliki tubuh yang ramping dengan kaki panjang dan kepala yang kecil. Cepat berlari dan terkenal dengan kemampuan berlari yang cepat.</item>
+        <item>Gallimimus memiliki tubuh yang ramping dengan kaki panjang, leher yang panjang, dan kepala kecil. Terkenal dengan kemampuan berlari yang sangat cepat.</item>
+        <item>Velociraptor memiliki tubuh yang ramping dengan kaki yang kuat, lengan yang panjang, dan cakar yang tajam di kedua kaki belakangnya. Dikenal dengan kecerdasannya dan kemampuan berburunya yang efektif.</item>
+        <item> Deinonychus memiliki tubuh yang ramping dengan kaki yang kuat dan lengan yang panjang. Dikenal dengan cakar yang besar di kaki belakangnya yang digunakan untuk menyerang mangsa.</item>
+
+
+    </string-array>
+    <string-array name="dino_Kelompok">
+        <item>Tyrannosauridae</item>
+        <item>Sauropoda</item>
+        <item>Sauropoda</item>
+        <item>Sauropoda</item>
+        <item>Stegosauridae</item>
+        <item>Hadrosauridae</item>
+        <item>Hadrosauridae</item>
+        <item>Hadrosauridae</item>
+        <item>Ceratopsidae</item>
+        <item>Ceratopsidae</item>
+        <item>Ankylosauridae</item>
+        <item>Ornithomimidae</item>
+        <item>Ornithomimidae</item>
+        <item>Velociraptoridae</item>
+        <item>Velociraptoridae</item>
+
+
+    </string-array>
+    <string-array name="dino_Habitat">
+        <item>Daratan luas, kadang-kadang mendekati daerah rawa atau sungai.</item>
+        <item>Hutan tropis yang lebat dengan banyak tanaman tinggi.</item>
+        <item>Daerah dataran rendah dengan vegetasi yang lebat.</item>
+        <item>Daerah dataran rendah dengan vegetasi yang lebat, seringkali dekat dengan sungai atau danau.</item>
+        <item>Hutan terbuka dengan banyak tanaman rendah dan semak-semak.</item>
+        <item>Daerah dataran rendah dengan vegetasi yang melimpah.</item>
+        <item>Lahan basah, sungai, dan dataran rendah dengan vegetasi yang melimpah.</item>
+        <item>Daerah rawa, danau, atau sungai dengan vegetasi yang melimpah.</item>
+        <item>Daerah dataran rendah dengan vegetasi yang melimpah.</item>
+        <item>Lingkungan dataran tinggi dan dataran rendah dengan vegetasi yang melimpah.</item>
+        <item>Daerah hutan dan padang rumput dengan vegetasi yang melimpah.</item>
+        <item>Daerah terbuka seperti padang rumput atau padang pasir.</item>
+        <item>Daerah terbuka seperti padang rumput atau padang pasir.</item>
+        <item>Daerah dataran terbuka atau hutan yang lebat.</item>
+        <item>Daerah dataran terbuka atau hutan yang lebat.</item>
+
+    </string-array>
+    <string-array name="dino_Makanan">
+        <item> Daging dari hewan-hewan seperti Triceratops dan hadrosaurids.</item>
+        <item>Daun, pucuk pohon, dan tanaman tinggi lainnya.</item>
+        <item>Daun, pucuk pohon, dan tanaman rendah lainnya.</item>
+        <item>Daun, pucuk pohon, dan tanaman rendah lainnya.</item>
+        <item>Tanaman rendah, tumbuhan berkayu, dan semak-semak.</item>
+        <item>Tanaman rendah, daun, dan semak-semak.</item>
+        <item>Tanaman rendah, dedaunan, dan semak-semak.</item>
+        <item>Tanaman rendah, dedaunan, dan semak-semak.</item>
+        <item>Tanaman rendah, semak-semak, dan dedaunan.</item>
+        <item>Dedalunan, semak-semak, dan tanaman rendah lainnya.</item>
+        <item>Tanaman rendah, dedaunan, dan semak-semak.</item>
+        <item>Tumbuhan rendah, buah-buahan, dan serangga.</item>
+        <item>Tumbuhan rendah, buah-buahan, dan serangga.</item>
+        <item>Daging, serangga, dan mungkin juga mangsa kecil lainnya.</item>
+        <item>Daging, serangga, dan mungkin juga mangsa kecil lainnya.</item>
+
+
+    </string-array>
+    <string-array name="dino_PanjangTinggiBobot">
+        <item>Panjang: Sekitar 12 meter
+Tinggi: Sekitar 6 meter
+Bobot: Sekitar 8-9 ton</item>
+        <item>Panjang: Sekitar 25 meter
+Tinggi: Sekitar 15 meter
+Bobot: Sekitar 30-40 ton</item>
+        <item>Panjang: Sekitar 22-25 meter
+Tinggi: Sekitar 7-9 meter
+Bobot: Sekitar 20-30 ton</item>
+        <item>Panjang: Sekitar 25-30 meter
+Tinggi: Sekitar 6-7 meter
+Bobot: Sekitar 10-15 ton</item>
+        <item>Panjang: Sekitar 9 meter
+Tinggi: Sekitar 4 meter
+Bobot: Sekitar 5 ton</item>
+        <item>Panjang: Sekitar 9-10 meter
+Tinggi: Sekitar 4-5 meter
+Bobot: Sekitar 2-3 ton</item>
+        <item>Panjang: Sekitar 12 meter
+Tinggi: Sekitar 4 meter
+Bobot: Sekitar 4-6 ton</item>
+        <item>Panjang: Sekitar 9 meter
+Tinggi: Sekitar 3-4 meter
+Bobot: Sekitar 2-3 ton</item>
+        <item>Panjang: Sekitar 8-9 meter
+Tinggi: Sekitar 3 meter
+Bobot: Sekitar 6-8 ton</item>
+        <item>Panjang: Sekitar 5-6 meter
+Tinggi: Sekitar 2,5 meter
+Bobot: Sekitar 3-4 ton</item>
+        <item>Panjang: Sekitar 6-7 meter
+Tinggi: Sekitar 1,5-2 meter
+Bobot: Sekitar 5-7 ton</item>
+        <item>Panjang: Sekitar 3-4 meter
+Tinggi: Sekitar 2 meter
+Bobot: Sekitar 200-300 kg</item>
+        <item>Panjang: Sekitar 5-6 meter
+Tinggi: Sekitar 2-3 meter
+Bobot: Sekitar 500 kg - 1 ton</item>
+        <item>Panjang: Sekitar 2 meter
+Tinggi: Sekitar 0,5-0,6 meter
+Bobot: Sekitar 15-20 kg</item>
+        <item>Panjang: Sekitar 3-4 meter
+Tinggi: Sekitar 1-1,5 meter
+Bobot: Sekitar 50-100 kg</item>
+
+
+    </string-array>
+    <string-array name="dino_Kelemahan">
+        <item> Lengan yang pendek mungkin membuatnya sulit untuk menangkap mangsa yang bergerak cepat</item>
+        <item>Ukurannya yang besar membuatnya rentan terhadap predator besar lainnya dan sulit bagi mereka untuk bergerak cepat.</item>
+        <item>Meskipun ukurannya besar, Apatosaurus mungkin rentan terhadap predator seperti Allosaurus.</item>
+        <item>Meskipun ukurannya besar, Diplodocus mungkin rentan terhadap predator seperti Allosaurus.</item>
+        <item>Meskipun memiliki perlindungan dari plat dan cakar, Stegosaurus mungkin rentan terhadap serangan predator dari berbagai arah.</item>
+        <item>Kehadiran tonjolan di kepala mungkin membuatnya terlihat mencolok bagi predator.</item>
+        <item>Meskipun ukurannya besar, mungkin rentan terhadap predator besar seperti Tyrannosaurus Rex.</item>
+        <item>Mungkin rentan terhadap predator dengan kemampuan memanjat atau menyerang dari atas.</item>
+        <item>Meskipun memiliki pertahanan yang kuat, mungkin rentan terhadap serangan predator jika diserang dari samping atau belakang.</item>
+        <item>Meskipun memiliki pertahanan yang kuat, mungkin rentan terhadap predator jika diserang secara masif atau dari arah yang tidak terduga.</item>
+        <item>Ankylosaurus mungkin rentan terhadap serangan yang ditargetkan pada bagian tubuh yang tidak dilindungi oleh piringan tulangnya, seperti bagian perut atau leher.</item>
+        <item>Meskipun memiliki pertahanan yang kuat, mungkin rentan terhadap serangan predator yang lebih cepat atau lebih gesit.</item>
+        <item>Meskipun memiliki perlindungan yang kuat, mungkin rentan terhadap serangan dari predator dengan strategi serangan cepat atau serangan kejutan.</item>
+        <item>Meskipun cepat, mungkin rentan terhadap predator yang lebih besar atau yang lebih kuat secara fisik.</item>
+        <item>Meskipun cepat, mungkin rentan terhadap predator yang lebih besar atau yang lebih kuat secara fisik.</item>
+        <item>Meskipun lincah dan cerdas, ukurannya yang kecil membuatnya rentan terhadap predator yang lebih besar.</item>
+        <item>Meskipun memiliki cakar yang besar, mungkin rentan terhadap serangan dari predator yang lebih besar secara fisik.</item>
+
     </string-array>
 
-    <string-array name="dino_Kelemahan" tools:ignore="ExtraTranslation">
-        <item>Jus, saus, pai, panggang.</item>
-        <item>Smoothie, guacamole, es krim.</item>
-        <item>Smoothie, goreng, es krim, kue.</item>
-        <item>Santan, keripik, es kelapa muda.</item>
-        <item>Selai, jus, salad.</item>
-        <item>Es, salad, keripik.</item>
-        <item>Salad, jus, es.</item>
-        <item>Jus, selai, kue.</item>
-        <item>Jus, selai, es buah.</item>
-        <item>Selai, smoothie, kue.</item>
+    <string-array name="dino_icon">
+        <item>@drawable/tyrannosaurus</item>
+        <item>@drawable/marginocephalia</item>
+        <item>@drawable/nothronychus</item>
+        <item>@drawable/ornithopoda</item>
+        <item>@drawable/pachycephalosaurus</item>
+        <item>@drawable/parasaurolophus</item>
+        <item>@drawable/sauropodomorpha</item>
+        <item>@drawable/styracosaurus</item>
+        <item>@drawable/therizinosauria</item>
+        <item>@drawable/therizinosaurus</item>
+        <item>@drawable/triceratops</item>
+        <item>@drawable/ankylosaurus</item>
+        <item>@drawable/apatosaurus</item>
+        <item>@drawable/brachiosaurus</item>
+        <item>@drawable/bronrosaurus</item>
     </string-array>
+    
 
-    <string-array name="fruits_characteristic" tools:ignore="ExtraTranslation">
-    <item>Apel Dikenali dengan daun-daun oval bergelombang,
-        bunganya memiliki lima kelopak putih atau merah muda.</item>
-        <item>Avokad Memiliki daun hijau gelap dan hijau muda,
-        serta bunga kecil dan hijau.</item>
-        <item>Pisang Daun-daun besar dan panjang yang tersusun
-        dalam tumpukan yang disebut "jantung."</item>
-        <item>Kelapa Daun kelapa berbentuk pinnatifid dengan
-        pangkal daun yang mengelilingi batang.</item>
-        <item>Jambu Biji Daun jambu biji bersifat meruncing dan
-        bunganya berwarna putih atau merah.</item>
-        <item>Mangga Daun-daunnya panjang dan ramping dengan ujung
-        yang meruncing, bunganya kecil dan berwarna-warni.</item>
-        <item>Melon Tanaman melon memiliki daun lobus dengan bunga
-        kuning atau oranye.</item>
-        <item>Jeruk Daun-daunnya biasanya bergaris dan bunganya
-berwarna putih atau merah muda.</item>
-        <item>Nanas Daunnya panjang dan runcing, dan bunganya
-berwarna ungu atau merah muda.</item>
-        <item>Stroberi Tanaman stroberi memiliki daun bertangkai
-dengan bunga kecil berwarna putih.</item>
-    </string-array>
-    <string-array name="fruits_habitat" tools:ignore="ExtraTranslation">
- <item>Apel Tumbuh di Eropa Tengah dan Barat Daya Asia,
-dalam iklim sedang hingga dingin dengan musim dingin yang
-sejuk.</item>
-        <item>Avokad Asli dari Meksiko dan Amerika Tengah, tumbuh
-di daerah subtropis atau tropis dengan suhu hangat hingga
-panas.</item>
-        <item>Pisang Asli dari Asia Tenggara, tumbuh di daerah
-tropis dengan suhu tinggi, kelembaban, dan curah hujan yang
-cukup.</item>
-        <item>Kelapa Tumbuh di wilayah tropis dan subtropis,
-terutama di daerah pesisir dengan iklim tropis atau
-subtropis.</item>
-        <item>Jambu Biji Asli dari Amerika Tropis, tumbuh di
-daerah tropis dan subtropis dengan iklim yang lembap.</item>
-        <item>Mangga Asli dari Asia Selatan dan Tenggara, tumbuh
-di daerah tropis dan subtropis, dengan suhu hangat hingga
-panas.</item>
-        <item>Melon Asli dari Timur Tengah dan Asia Tenggara,
-tumbuh di berbagai iklim, tetapi biasanya ditanam di musim panas
-dengan suhu yang hangat hingga panas.</item>
-        <item>Jeruk Asli dari Asia Timur, tumbuh di daerah tropis
-dan subtropis dengan iklim yang hangat hingga panas.</item>
-        <item>Nanas Asli dari Amerika Selatan, tumbuh di daerah
-tropis dan subtropis, dengan suhu hangat hingga panas.</item>
-        <item>Stroberi Tumbuh di belahan utara dan selatan dunia,
-di daerah beriklim sedang hingga dingin, di tempat yang
-mendapatkan sinar matahari yang cukup.</item>
-    </string-array>
-
-    <string-array name="fruits_description" tools:ignore="ExtraTranslation">
-        <item>Apel adalah buah populer dengan kulit yang renyah
-        dan daging yang manis. Kaya akan serat, vitamin C, dan
-        antioksidan, apel merupakan camilan sehat yang dapat dimakan
-        langsung atau diolah menjadi berbagai hidangan. Buah ini juga
-        memiliki manfaat kesehatan, seperti mendukung sistem kekebalan
-tubuh dan menjaga kesehatan jantung.</item>
-        <item>Avokad, atau sering disebut alpukat, adalah buah
-lezat dengan daging lembut dan kaya nutrisi. Buah ini mengandung
-sejumlah sehat lemak tak jenuh ganda, serat, vitamin K, vitamin E,
-vitamin C, dan beberapa mineral penting. Avokad sering digunakan
-dalam berbagai hidangan, seperti salad, smoothie, atau sebagai
-lapisan pada roti. Selain rasanya yang lezat, avokad juga dikenal
-memberikan manfaat bagi kesehatan kulit, mata, dan jantung.</item>
-        <item>Pisang adalah buah yang lezat dan praktis, dengan
-kulit kuning dan daging yang manis. Kaya akan kalium, vitamin B6,
-dan serat, pisang merupakan camilan sehat yang mudah dibawa dan
-dimakan. Pisang juga dapat digunakan dalam berbagai hidangan,
-seperti smoothie, roti, atau kue. Selain itu, kandungan nutrisinya
-mendukung kesehatan otot, sistem saraf, dan menjaga keseimbangan
-cairan dalam tubuh.</item>
-        <item>Kelapa adalah buah tropis yang terkenal dengan
-rasanya yang segar dan kegunaannya yang serbaguna. Buah ini
-memiliki cangkang keras berwarna cokelat, dan di dalamnya terdapat
-daging putih yang juicy serta air kelapa. Kelapa digunakan dalam
-berbagai aplikasi kuliner, termasuk memasak, membaking, dan
-membuat minuman. Kandungan nutrisinya mencakup lemak sehat,
-elektrolit, dan serat. Kelapa tidak hanya lezat tetapi juga
-memberikan manfaat kesehatan potensial, seperti mendukung hidrasi,
-membantu pencernaan, dan memberikan kontribusi pada pola makan
-yang seimbang.</item>
-        <item>Jambu biji adalah buah tropis dengan rasa dan aroma
-khas. Umumnya memiliki kulit berwarna hijau dan daging yang manis,
-berwarna merah muda atau putih dengan biji kecil di bagian
-tengahnya. Jambu biji kaya akan vitamin C, serat, dan antioksidan.
-Buah ini serbaguna dan dapat dinikmati segar, dijadikan jus, atau
-digunakan dalam berbagai kreasi kuliner seperti selai, kudapan,
-dan salad. Selain rasanya yang lezat, jambu biji dikenal dengan
-potensi manfaat kesehatannya, termasuk mendukung sistem kekebalan
-tubuh, meningkatkan pencernaan, dan menjaga kesehatan
-kulit.</item>
-        <item>Mangga adalah buah tropis yang dihargai karena
-dagingnya yang manis dan juicy. Buah ini memiliki kulit yang halus
-dan berwarna-warni, dengan daging yang bervariasi dari kuning
-hingga oranye. Mangga kaya akan vitamin, terutama vitamin C dan
-vitamin A, serta mengandung antioksidan dan serat pangan. Buah
-serbaguna ini dapat dinikmati segar, dihaluskan menjadi smoothie,
-ditambahkan ke dalam salad, atau digunakan dalam hidangan manis
-dan gurih. Selain rasanya yang lezat, mangga dikenal dengan
-potensi manfaat kesehatan, termasuk mendukung kesehatan sistem
-kekebalan tubuh, menjaga kesehatan mata, dan membantu
-pencernaan.</item>
-        <item>Melon adalah buah yang menyegarkan dan mengandung
-        banyak air. Umumnya memiliki kulit luar yang halus dan daging yang
-        manis serta juicy di dalamnya. Melon hadir dalam berbagai
-        varietas, seperti cantaloupe dan honeydew, masing-masing denganrasa dan warna yang unik. Kaya akan vitamin A dan C, serta
-potassium, melon menyajikan pilihan buah yang manis dan bergizi
-untuk camilan, hidangan pencuci mulut, atau salad buah. Dengan
-rasa yang ringan dan lezat, melon sering dinikmati dalam keadaan
-dingin pada hari yang panas dan dikenal karena kemampuannya untuk
-membantu menjaga kecukupan cairan tubuh secara keseluruhan.</item>
-        <item>Jeruk adalah buah citrus yang dikenal karena warna
-cerahnya dan rasa citrus yang khas. Dengan kulit yang tebal dan
-dapat dikupas, jeruk memiliki daging yang juicy dan bersegmen di
-dalamnya. Kaya akan vitamin C, jeruk dihargai karena rasanya yang
-menyegarkan dan manfaat kesehatannya. Dikonsumsi segar, dijadikan
-jus, atau digunakan dalam berbagai aplikasi kuliner, jeruk
-memberikan sentuhan rasa citrus yang segar dan berkontribusi pada
-pola makan yang sehat. Selain itu, buah ini dikenal karena
-sifatnya yang meningkatkan kekebalan tubuh dan mendukung
-kesejahteraan secara keseluruhan.</item>
-        <item>Nanas adalah buah tropis dengan rasa manis dan
-sedikit asam yang khas. Buah ini memiliki kulit luar yang keras
-dan berduri, serta daging kuning yang juicy di dalamnya. Nanas
-kaya akan vitamin C, mangan, dan antioksidan. Buah tropis ini bisa
-dinikmati segar, dijadikan jus, atau digunakan dalam berbagai
-kreasi kuliner seperti salad buah, smoothie, dan hidangan penutup.
-Selain rasanya yang lezat, nanas dikenal dengan potensi manfaat
-kesehatannya, termasuk mendukung sistem kekebalan tubuh dan sifat
-antiinflamasi.</item>
-        <item>Stroberi adalah buah kecil berwarna merah cerah
-dengan rasa manis dan segar. Buah ini memiliki permukaan yang
-berbintik-bintik dan sejumlah biji kecil di permukaannya. Stroberi
-kaya akan vitamin C, serat, dan antioksidan. Biasanya dimakan
-segar, dijadikan tambahan dalam salad buah, atau digunakan sebagai
-bahan dalam pembuatan jus, kue, atau selai. Selain rasanya yang
-lezat, stroberi juga dikenal dengan manfaat kesehatannya, seperti
-mendukung sistem kekebalan tubuh dan meningkatkan kesehatan
-jantung.</item>
-    </string-array>
-
-    <string-array name="fruits_name" tools:ignore="ExtraTranslation">
-        <item>Apel</item>
-        <item>Avokad</item>
-        <item>Pisang</item>
-        <item>Kelapa</item>
-        <item>Jambu Biji</item>
-        <item>Mangga</item>
-        <item>Melon</item>
-        <item>Jeruk</item>
-        <item>Nanas</item>
-        <item>Stroberi</item>
-    </string-array>
-    <string-array name="fruits_icon" tools:ignore="ExtraTranslation">
-        <item>@drawable/ic_apple</item>
-        <item>@drawable/ic_avocado</item>
-        <item>@drawable/ic_banana</item>
-        <item>@drawable/ic_coconut</item>
-        <item>@drawable/ic_guava</item>
-        <item>@drawable/ic_mango</item>
-        <item>@drawable/ic_melon</item>
-        <item>@drawable/ic_orange</item>
-        <item>@drawable/ic_pineapple</item>
-    </string-array>
 </resources>

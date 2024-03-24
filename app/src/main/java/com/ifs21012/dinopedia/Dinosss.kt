@@ -3,7 +3,8 @@ package com.ifs21012.dinopedia
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 @Parcelize
-data class Dino(
+data class Dinosss(
+    
     var name: String,
     var icon: Int,
     var description: String,
@@ -12,5 +13,6 @@ data class Dino(
     var Habitat: String,
     var PanjangTinggiBobot: String,
     var Kelemahan: String,
-    var process: String,
-) : Parcelable
+    var Makanan: String,
+
+    ) : Parcelable

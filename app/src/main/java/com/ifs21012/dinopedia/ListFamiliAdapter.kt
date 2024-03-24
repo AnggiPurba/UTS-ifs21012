@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.ifs21012.dinopedia.databinding.ItemRowFamiliBinding
 
-class ListFamiliAdapter(private val listFamili: ArrayList<Famili>) :
+class ListFamiliAdapter(private val listFamili: ArrayList<Dinos>) :
     RecyclerView.Adapter<ListFamiliAdapter.ListViewHolder>() {
     private lateinit var onItemClickCallback: OnItemClickCallback
     fun setOnItemClickCallback(
@@ -34,8 +34,8 @@ class ListFamiliAdapter(private val listFamili: ArrayList<Famili>) :
         Int
     ) {
         val famili = listFamili[position]
-        holder.binding.ivItemFamili.setImageResource(famili.icon)
-        holder.binding.tvItemFamilis.text = famili.name
+        holder.binding.ivItemFamili.setImageResource(famili.icons)
+        holder.binding.tvItemFamilis.text = famili.names
         holder.itemView.setOnClickListener {
             onItemClickCallback
                 .onItemClicked(listFamili[holder.adapterPosition])
@@ -47,6 +47,6 @@ class ListFamiliAdapter(private val listFamili: ArrayList<Famili>) :
         RecyclerView.ViewHolder(binding.root)
 
     interface OnItemClickCallback {
-        fun onItemClicked(data: Famili)
+        fun onItemClicked(data: Dinos)
     }
 }
